@@ -14,7 +14,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'], $target))
 		header("location:login.php");
 	}
 	else
-		echo "NOT INSERTED";
+		echo "NOT INSERTED YES";
 
 }
 
